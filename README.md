@@ -1,3 +1,4 @@
+![logo}(https://github.com/Coding-with-Gaurav/Coding-with-Gaurav/blob/main/banner.png)
 <h1 align="center">Hi 👋, I'm Gaurav Kumar</h1>
 <h3 align="center">A passionate Full Stack developer & Data Science student looking for reinforcement learning & NLP.</h3>
 <img align = "right" alt = "Coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif"

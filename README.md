@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **codewithgaurav.dsvv@gmail.com**
 
-- 📄 Know about my experiences [https://github.com/Coding-with-Gaurav/My-Resume](https://github.com/Coding-with-Gaurav/My-Resume)
+- 📄 Know about my experiences [My Resume](https://github.com/Coding-with-Gaurav/My-Resume/blob/main/resume.md)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

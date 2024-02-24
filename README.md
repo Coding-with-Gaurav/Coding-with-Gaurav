@@ -1,10 +1,6 @@
 ![logo](https://github.com/Coding-with-Gaurav/Coding-with-Gaurav/blob/main/banner2.png) 
 <h1 align="center">Hi 👋, I'm Gaurav Kumar</h1>
-<h3 align="center"> 👨‍💻 Hello World! I'm Gaurav Kumar, a dedicated MCA Data Science student and tech enthusiast. My repositories reflect my journey in Computer Vision, Natural Language Processing, and Reinforcement Learning, where I'm pushing the boundaries of what's possible.
-
-🚀 Excited about the endless possibilities of technology, I'm also delving into web development to create meaningful and user-friendly applications. Check out my projects, explore the code, and feel free to collaborate or provide feedback.
-
-🌐 Seeking internships in web development, data analytics, and machine learning to apply and enhance my skills. Let's code the future together! 🌈 #CodePassion #OpenSource #MachineLearning #WebDev
+<h3 align="center">🌟 Gaurav Kumar: MCA Data Science | AI & web dev enthusiast | Seeking internships | Let's innovate together! 💻 #CodePassion #ML #WebDev 🚀 #MachineLearning #WebDev
 </h3>
 <img align = "right" alt = "Coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif"
 

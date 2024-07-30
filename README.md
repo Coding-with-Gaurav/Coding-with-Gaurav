@@ -8,9 +8,9 @@
 
 - 🌱 I’m currently learning **Django, Algorithms, Machine Learning**
 
-- 💬 Ask me about **back end and Database Development**
+- 💬 Ask me about **RESTful API, Flask API, NLP Libraries, Nosql, MySQL, and AI**
 
-- 📫 How to reach me **codewithgaurav.dsvv@gmail.com**
+- 📫 How to reach me **tech_gaurav@outlook.com**
 
 - 📄 Know about my experiences [My Resume](https://github.com/Coding-with-Gaurav/My-Resume/blob/main/resume.md)
 

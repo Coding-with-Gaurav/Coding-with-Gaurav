@@ -64,27 +64,32 @@ function App() {
     {
       name: "Introduction to Data Science",
       issuer: "Coursera",
-      link: "https://drive.google.com/file/d/15DS95ahxgUn0rRu5n-qNlkgcltUz4caL/view",
+      link: "https://drive.google.com/file/d/15DS95ahxgUn0rRu5n-qNlkgcltUz4caL/preview",
+      type: "pdf"
     },
     {
       name: "Crash Course on Git, GitHub, and Markdown",
       issuer: "Udemy",
       link: "https://www.udemy.com/certificate/UC-44767e90-4f57-41e8-b188-08f61f081478/",
+      type: "external"
     },
     {
       name: "Introduction to Generative AI",
       issuer: "Google Cloud Skills Boost",
       link: "https://www.cloudskillsboost.google/public_profiles/78692f20-7bd0-43fa-bde2-fc39539cb3c6/badges/8136058?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      type: "external"
     },
     {
       name: "Big Data Certification",
       issuer: "Udemy",
       link: "https://www.udemy.com/certificate/UC-8ccc765f-6dbf-4bf9-bedc-d2f066eaa4de/",
+      type: "external"
     },
     {
       name: "Data Analytics with Tableau",
       issuer: "Jobaaj Learnings",
       link: "https://www.jobaajlearnings.com/certificate?file=certificate-96811-37-0.jpeg",
+      type: "image"
     },
   ];
   const extraActivities = [

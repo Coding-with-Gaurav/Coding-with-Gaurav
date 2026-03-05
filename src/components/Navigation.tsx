@@ -137,6 +137,7 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin } from 'lucide-react';
+import { label } from 'framer-motion/client';
 
 const cn = (...inputs: (string | undefined | null | false)[]) => {
   return inputs.filter(Boolean).join(' ');
@@ -148,10 +149,11 @@ export default function Navigation() {
 
   // Updated nav links — now includes "Activities"
   const navLinks = [
-    { label: 'Projects', href: '#projects' },
+    {label: 'Education', href: '#education'},
     { label: 'Experience', href: '#experience' },
-    { label: 'Skills', href: '#skills' },
+    { label: 'Projects', href: '#projects' },
     { label: 'Publications', href: '#publications' },
+    { label: 'Skills', href: '#skills' },
     { label: 'Activities', href: '#activities' },   // ← NEW: Extra Activities
     { label: 'Contact', href: '#contact' },
   ];

@@ -176,7 +176,16 @@ function App() {
               ))}
             </div>
           </motion.section>
-
+          {/* Experience */}
+          <motion.section id="experience" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <div className="flex items-center gap-3 mb-10">
+              <Briefcase className="w-8 h-8 text-amber-400" />
+              <h2 className="text-4xl md:text-5xl font-display font-bold bg-gradient-to-r from-amber-300 to-amber-500 bg-clip-text text-transparent">
+                Work Experience
+              </h2>
+            </div>
+            <Timeline items={experiences} />
+          </motion.section>
           {/* Projects */}
           <motion.section id="projects" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <div className="flex items-center gap-3 mb-10">
@@ -281,16 +290,7 @@ function App() {
             </motion.div>
           </motion.section>
 
-          {/* Experience */}
-          <motion.section id="experience" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <div className="flex items-center gap-3 mb-10">
-              <Briefcase className="w-8 h-8 text-amber-400" />
-              <h2 className="text-4xl md:text-5xl font-display font-bold bg-gradient-to-r from-amber-300 to-amber-500 bg-clip-text text-transparent">
-                Work Experience
-              </h2>
-            </div>
-            <Timeline items={experiences} />
-          </motion.section>
+
 
           {/* Skills */}
           <motion.section id="skills" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
@@ -373,7 +373,7 @@ function App() {
           </motion.section>
         </main>
 
-        <footer className="bg-slate-900 border-t border-slate-800 py-8">
+        {/* <footer className="bg-slate-900 border-t border-slate-800 py-8">
           <div className="max-w-7xl mx-auto px-6 text-center">
             <p className="text-slate-400 text-sm font-medium">
               © 2025 Gaurav Kumar. Crafting AI for healthcare and culture.
@@ -435,7 +435,66 @@ function App() {
               </a>
             </div>
           </div>
-        </footer>
+        </footer> */}
+<footer className="bg-slate-950 border-t border-slate-800/50 py-6">
+  <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+    {/* Left / Center on mobile */}
+    <p className="text-slate-500 font-medium">
+      © {new Date().getFullYear() > 2025 ? `2025–${new Date().getFullYear()}` : 2025} Gaurav Kumar
+    </p>
+
+    {/* Social icons - compact row */}
+    
+    <div className="flex items-center gap-6">
+      <a
+        href="https://linkedin.com/in/gaurav-kumar-68453b247"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-slate-400 hover:text-amber-400 transition-colors duration-200"
+        aria-label="LinkedIn"
+      >
+        <Linkedin className="w-5 h-5" />
+      </a>
+      <a
+        href="https://github.com/Coding-with-Gaurav"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-slate-400 hover:text-amber-400 transition-colors duration-200"
+        aria-label="GitHub"
+      >
+        <Github className="w-5 h-5" />
+      </a>
+
+      <a
+        href="https://x.com/GauravK30437835"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-slate-400 hover:text-amber-400 transition-colors duration-200"
+        aria-label="X"
+      >
+        <X className="w-5 h-5" />
+      </a>
+
+      <a
+        href="https://medium.com/@codewithgaurav.dsvv"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-slate-400 hover:text-amber-400 transition-colors duration-200"
+        aria-label="Medium"
+      >
+        <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M13.54 12a6.8 6.8 0 01-6.79-6.79A6.8 6.8 0 0113.54 12zm2.63 0a4.58 4.58 0 01-4.58-4.58 4.58 4.58 0 014.58 4.58zm2.8 0a1.8 1.8 0 01-1.8-1.8 1.8 1.8 0 011.8 1.8z" />
+        </svg>
+      </a>
+
+      {/* Remove or update dev.to if not active */}
+      {/* <a href="https://dev.to/yourusername" ... > ... </a> */}
+
+      
+    </div>
+  </div>
+</footer>
+        
       </div>
     </>
   );

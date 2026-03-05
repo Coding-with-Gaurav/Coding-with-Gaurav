@@ -1,4 +1,4 @@
-import { useState, useEffect  } from 'react';
+import { useState  } from 'react';
 import { Send } from 'lucide-react';
 import emailjs from 'emailjs-com';
 
@@ -19,13 +19,13 @@ const ContactForm = () => {
       [name]: value,
     }));
   };
-useEffect(() => {
-  console.log("ENV VALUES:", {
-    service: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-    template: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-    key: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-  });
-}, []);
+// useEffect(() => {
+//   console.log("ENV VALUES:", {
+//     service: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+//     template: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+//     key: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+//   });
+// }, []);
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);

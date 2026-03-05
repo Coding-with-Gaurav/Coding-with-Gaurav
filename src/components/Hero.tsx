@@ -5,9 +5,9 @@ import { motion } from "framer-motion"; // Add: npm install framer-motion
 // Import images
 import Img1 from "/src/assets/Gaurav Kumar.jpeg";
 // import Img2 from "/src/assets/Gk.jpeg";
-import Img3 from "/src/assets/gks.jpeg";
+// import Img3 from "/src/assets/gks.jpeg";
 
-const images = [Img1, Img3];
+const images = [Img1];
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -208,7 +208,7 @@ const Hero = () => {
               </div>
 
               {/* Dots */}
-              <div className="flex justify-center gap-2 mt-8">
+              {/* <div className="flex justify-center gap-2 mt-8">
                 {images.map((_, i) => (
                   <button
                     key={i}
@@ -220,7 +220,7 @@ const Hero = () => {
                     aria-label={`Slide ${i + 1}`}
                   />
                 ))}
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
